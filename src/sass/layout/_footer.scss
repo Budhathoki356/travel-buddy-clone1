@@ -1,0 +1,107 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000;
+    color: $color-white;
+    text-align: center;
+    font-size: $sm-fs;
+
+    &__top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        .footer__left {
+            padding-top: 65px;
+            max-width: 500px;
+            text-align: left;
+            line-height: 1.7em;
+        }
+
+        .footer__mid {
+            text-align: left;
+            padding: 0 30px;
+            h5 {
+                position: relative;
+                font-size: $md-fs;
+                color: $color-white;
+                line-height: 3em;
+                padding-bottom: 15px;
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 150px;
+                    height: 2px;
+                    background-color: $color-black;
+                    position: absolute;
+                }
+            }
+
+            span {
+                font-size: $sm-fs;
+            }
+
+            p {
+                padding-top: 30px;
+                font-size: $md-fs;
+            }
+        }
+
+        .footer__right {
+            text-align: left;
+
+            h5 {
+                position: relative;
+                font-size: $md-fs;
+                color: $color-white;
+                line-height: 3em;
+                padding-bottom: 15px;
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 150px;
+                    height: 2px;
+                    background-color: $color-black;
+                    position: absolute;
+                }
+            }
+
+            .footer__form {
+                text-align: left;
+                padding-top: 10px;
+
+                input {
+                    width: 75%;
+                    padding: 8px;
+                    margin: 8px 0;
+                    border: 1px solid $color-white-light;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    background-color: $color-black;
+                    font-size: $sm-fs;
+                }
+
+                button {
+                    background-color: $color-green;
+                    width: 60px;
+                    height: 40px;
+                    font-size: $sm-fs;
+                    border: none;
+                    border-radius: 5px;
+                    color: $color-white;
+                }
+            }
+        }
+    }
+
+    .footer__middle {
+        padding: 80px;
+        letter-spacing: 3px;
+    }
+
+    .footer__bottom {
+        letter-spacing: 1px;
+    }
+}

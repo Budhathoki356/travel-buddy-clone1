@@ -1,0 +1,41 @@
+.text-white {
+    color: $color-white;
+}
+
+.text-white-light {
+    color: $color-white-light;
+}
+
+.text-black {
+    color: $color-black;
+}
+
+.text-black-light {
+    color: $color-black-light;
+}
+
+.text-gray {
+    color: $color-gray;
+}
+.text-green {
+    color: $color-green;
+}
+
+.title-heading {
+    font-size: $lg-fs;
+    // display: ;
+}
+
+.title-heading-main {
+    font-size: $xlg-fs;
+    display: block;
+    line-height: 1.2em;
+    font-weight: 800;
+    padding: 30px 0;
+}
+
+.user-text {
+    font-size: $lg-fs;
+    color: $color-black;
+    font-weight: 400;
+}

@@ -1,0 +1,18 @@
+.header {
+    background: url("/images/herophoto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+}
+
+.header__container {
+    margin-top: 50px;
+
+    .stores {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+    }
+
+}

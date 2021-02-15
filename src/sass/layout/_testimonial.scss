@@ -1,0 +1,64 @@
+@import "./../base/typography";
+
+.testimonial {
+    background-color: $color-green;
+    width: 100%;
+    padding: 20px 0;
+
+    &__title {
+        text-align: center;
+        font-size: $lg-fs;
+        color: $color-white;
+        line-height: 2em;
+        position: relative;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 4px;
+            background-color: $color-white;
+            position: absolute;
+            left: 45%;
+        }
+    }
+
+    .user__profile {
+        margin-top: 50px;
+        display: flex;
+        align-items: flex-start;
+
+        img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+        }
+
+        .user__details {
+            padding-left: 20px;
+
+            .user__name {
+                @extend .user-text;
+            }
+            .user__post {
+                font-size: $sm-fs;
+                color: $color-gray;
+            }
+        }
+    }
+
+    &__carousel {
+        width: 750px;
+        margin: 50px auto;
+        position: relative;
+    }
+
+    &__description {
+        color: $color-black;
+        font-size: $md-fs;
+        max-width: 600px;
+        text-align: center;
+        line-height: 2em;
+    }
+}

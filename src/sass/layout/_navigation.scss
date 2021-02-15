@@ -1,0 +1,36 @@
+.navbar {
+    width: 100%;
+    height: 76px;
+    background-color: $nav-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+
+    &__logo {
+        padding-left: 30px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    &__menu {
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-links {
+            padding: 20px;
+            list-style: none;
+        }
+
+        &-link {
+            text-decoration: none;
+            cursor: pointer;
+            color: $color-white;
+            font-size: $sm-fs;
+            font-weight: 400;
+        }
+    }
+}

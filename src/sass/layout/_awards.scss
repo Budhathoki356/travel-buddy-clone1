@@ -1,0 +1,31 @@
+.awards {
+    text-align: center;
+
+    &__title {
+        text-align: center;
+        font-size: $lg-fs;
+        color: $color-green;
+        line-height: 2em;
+        padding-bottom: 50px;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 4px;
+            background-color: $color-green;
+            position: absolute;
+            left: 47%;
+        }
+    }
+
+    &__mentions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        img{
+            width: 350px;
+        }
+    }
+}

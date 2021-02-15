@@ -1,0 +1,46 @@
+.carousel {
+    height: 465px;
+    overflow: hidden;
+    position: relative;
+    background-color: $color-white;
+    border-radius: 20px;
+}
+
+.slider {
+    height: 100%;
+    display: flex;
+    width: 300%;
+    transition: all 0.5s;
+
+    section {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.controls {
+    .arrow {
+        position: absolute;
+        top: 50%;
+        cursor: pointer;
+    }
+
+    .left {
+        left: -50px;
+    }
+    .right {
+        right: -50px;
+    }
+}
+
+.fa {
+    font-size: 30px;
+    color: $color-white-light;
+
+    &:hover {
+        color: $color-white;
+    }
+}
