@@ -4,7 +4,7 @@ import Form from './Form';
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className="header" style={{ backgroundImage: "url(/images/herophoto.jpg)" }}>
             <Navbar />
             <div className="wrapper d--flex">
                 <div className="header__container">

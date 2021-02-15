@@ -1,8 +1,9 @@
 .header {
-    background: url("/images/herophoto.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: overlay;
     height: 85vh;
 }
 
