@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/travel-buddy-clone1/static/css/main.4b9d2058.chunk.css",
+    "main.js": "/travel-buddy-clone1/static/js/main.1c234d4b.chunk.js",
+    "main.js.map": "/travel-buddy-clone1/static/js/main.1c234d4b.chunk.js.map",
+    "runtime-main.js": "/travel-buddy-clone1/static/js/runtime-main.a0db1f29.js",
+    "runtime-main.js.map": "/travel-buddy-clone1/static/js/runtime-main.a0db1f29.js.map",
+    "static/js/2.8418e734.chunk.js": "/travel-buddy-clone1/static/js/2.8418e734.chunk.js",
+    "static/js/2.8418e734.chunk.js.map": "/travel-buddy-clone1/static/js/2.8418e734.chunk.js.map",
+    "index.html": "/travel-buddy-clone1/index.html",
+    "static/css/main.4b9d2058.chunk.css.map": "/travel-buddy-clone1/static/css/main.4b9d2058.chunk.css.map",
+    "static/js/2.8418e734.chunk.js.LICENSE.txt": "/travel-buddy-clone1/static/js/2.8418e734.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0db1f29.js",
+    "static/js/2.8418e734.chunk.js",
+    "static/css/main.4b9d2058.chunk.css",
+    "static/js/main.1c234d4b.chunk.js"
+  ]
+}
